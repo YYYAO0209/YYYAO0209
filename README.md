@@ -8,7 +8,7 @@ Created on Sat Jul 24 10:23:29 2021
 import random
 
 num=random.randint(1,10)
-
+print('lets play a game of numbers, remember, u only got 5 changes')
 guess=int (input('guess a number between 1 and 10'))
 
 i=1
@@ -25,5 +25,5 @@ while(guess!=num):
     elif(guess==num):
         print('bingo!')
         break
-print('u tryed '+str(i)+' times' )
+print('u tryed '+str(i)+' times, seeya later :)' )
     
